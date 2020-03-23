@@ -8,7 +8,7 @@ module.exports = {
     port: '9000',
     ethRPC: 'https://mainnet.infura.io/v3/e053e28ef40246c4812261502590ac2d',   
 	
-    dbPath: 'karachaindemo:testdemo123@ds147589.mlab.com:47589/dex-karachain',
+    dbPath: 'mongodb://karachaindemo:testdemo123@ds147589.mlab.com:47589/dex-karachain',
    
 	etherscanUrl: 'http://etherscan.io',  
     etherscanAPI: 'http://etherscan.io', 
