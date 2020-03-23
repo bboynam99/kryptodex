@@ -6,7 +6,7 @@ module.exports = {
     ],
     ethTestnet: false,   //Testnet  ethTestnet: 'ropsten','true' else 'false'
     port: '9000',
-    ethRPC: 'https://rinkeby.infura.io/v3/e053e28ef40246c4812261502590ac2d',   
+    ethRPC: 'https://mainnet.infura.io/v3/e053e28ef40246c4812261502590ac2d',   
 	//Testnet   'https://ropsten.infura.io/v3/e053e28ef40246c4812261502590ac2d'  //mainnet.
     dbPath: 'karachaindemo:testdemo123@ds147589.mlab.com:47589/dex-karachain',
     //testnet mongodb://karachaindemo:testdemo123@ds147589.mlab.com:47589/dex-karachain
