@@ -1,18 +1,17 @@
 module.exports = {
     contractDExAddrs: [
-        //{addr: '0xf61c2cd792d219499249be36aa7339c5d90ac0d6', info: 'Deployed 04/16/2018'},  //Ropsten
-		{addr: '0xdb212bb6dd0c9cbc9fc0c5ffe88be35b81cbeb92', info: 'TokenGo Contract'},   //Mainnet  
+       
+		{addr: '0xdb212bb6dd0c9cbc9fc0c5ffe88be35b81cbeb92', info: 'TokenGo Contract'},  
 		
     ],
-    ethTestnet: false,   //Testnet  ethTestnet: 'ropsten','true' else 'false'
+    ethTestnet: false, 
     port: '9000',
     ethRPC: 'https://mainnet.infura.io/v3/e053e28ef40246c4812261502590ac2d',   
-	//Testnet   'https://ropsten.infura.io/v3/e053e28ef40246c4812261502590ac2d'  //mainnet.
+	
     dbPath: 'karachaindemo:testdemo123@ds147589.mlab.com:47589/dex-karachain',
-    //testnet mongodb://karachaindemo:testdemo123@ds147589.mlab.com:47589/dex-karachain
-	//testnet mongodb://kryptohub:789789krh@cluster0-ltvav.mongodb.net:27017/test
-	etherscanUrl: 'http://etherscan.io',   //Testnet: 'http://ropsten.etherscan.io',
-    etherscanAPI: 'http://etherscan.io', //Testnet  'http://etherscan.io'
+   
+	etherscanUrl: 'http://etherscan.io',  
+    etherscanAPI: 'http://etherscan.io', 
     etherscanAPIKey: 'T1GSYD4D3NEAH44VQ34VHNDR9P316J9E7D',
     tokens: [
         {addr: '0x0000000000000000000000000000000000000000', name: 'ETH', decimals: 18},
