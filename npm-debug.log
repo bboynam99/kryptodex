@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@1.1.63
+3 info using node@v0.8.12
+4 error Error: EPERM, mkdir 'C:\Program Files\nodejs\node_global'
+4 error  { [Error: EPERM, mkdir 'C:\Program Files\nodejs\node_global']
+4 error   errno: 50,
+4 error   code: 'EPERM',
+4 error   path: 'C:\\Program Files\\nodejs\\node_global' }
+5 error Please try running this command again as root/Administrator.
+6 error System Windows_NT 6.1.7601
+7 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+8 error cwd C:\Windows.old\DEX\DEX\DexKryptoHub\backend\backend
+9 error node -v v0.8.12
+10 error npm -v 1.1.63
+11 error path C:\Program Files\nodejs\node_global
+12 error code EPERM
+13 error errno 50
+14 error stack Error: EPERM, mkdir 'C:\Program Files\nodejs\node_global'
+15 verbose exit [ 50, true ]
